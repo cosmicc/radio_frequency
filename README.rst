@@ -40,32 +40,32 @@ Features
 
 Returns information about a radio frequency (US only for now)
 
-Band Description 
-Band Type
-ITU Abbreviation
-ITU Number
-IEEE Band Name
-NATO Band Name
-Broadcast
-Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented
-Wavelength Range, - Not yet Implimented
-Meters
+Band Description\ 
+Band Type\
+ITU Abbreviation\
+ITU Number\
+IEEE Band Name\
+NATO Band Name\
+Broadcast\
+Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented\
+Wavelength Range, - Not yet Implimented\
+Meters\
 
 Usage
 -------
-Frequency format examples:
-89.900.000, 89900000, 89,900,000
+Frequency format examples:\
+89.900.000, 89900000, 89,900,000\
 
-Command Line:
-radio-frequency <frequency> 
+Command Line:\
+radio-frequency <frequency>\
 
-Python:
-from radio_frequency import radio_frequency as rf
+Python:\
+from radio_frequency import radio_frequency as rf\
 
-rf.frequency_info(frequency)
+rf.frequency_info(frequency)\
 
-returns a dictionary:
-{ frequency: '89.900 Mhz', band_desc: 'Very High Frequency', band_type: None, meters: None, itu_abbr: 'VHF', itu_num: 8, ieee: 'VHF', nato: 'A', broadcast: 'FM Radio' }
+returns a dictionary:\
+{ frequency: '89.900 Mhz', band_desc: 'Very High Frequency', band_type: None, meters: None, itu_abbr: 'VHF', itu_num: 8, ieee: 'VHF', nato: 'A', broadcast: 'FM Radio' }\
 
 
 Todo
