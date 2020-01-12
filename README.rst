@@ -38,15 +38,15 @@ Features
 
 Returns information about a radio frequency (US only for now)
 
-Band Description\n 
-Band Type\n
-ITU Abbreviation\n
-ITU Number\n
-IEEE Band Name\n
-NATO Band Name\n
-Broadcast\n
-Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented\n
-Wavelength Range, - Not yet Implimented\n
+Band Description 
+Band Type
+ITU Abbreviation
+ITU Number
+IEEE Band Name
+NATO Band Name
+Broadcast
+Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented
+Wavelength Range, - Not yet Implimented
 Meters
 
 Todo
