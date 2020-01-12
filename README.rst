@@ -40,44 +40,44 @@ Features
 
 Returns information about a radio frequency (US only for now)
 
-Band Description\ 
-Band Type\
-ITU Abbreviation\
-ITU Number\
-IEEE Band Name\
-NATO Band Name\
-Broadcast\
-Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented\
-Wavelength Range, - Not yet Implimented\
-Meters\
+Band Description__
+Band Type__
+ITU Abbreviation__
+ITU Number__
+IEEE Band Name__
+NATO Band Name__
+Broadcast__
+Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented__
+Wavelength Range, - Not yet Implimented__
+Meters__
 
 Usage
 -------
-Frequency format examples:\
-89.900.000, 89900000, 89,900,000\
+Frequency format examples:__
+89.900.000, 89900000, 89,900,000__
 
-Command Line:\
-radio-frequency <frequency>\
+Command Line:__
+radio-frequency <frequency>__
 
-Python:\
-from radio_frequency import radio_frequency as rf\
+Python:__
+from radio_frequency import radio_frequency as rf
 
-rf.frequency_info(frequency)\
+rf.frequency_info(frequency)
 
-returns a dictionary:\
-{ frequency: '89.900 Mhz', band_desc: 'Very High Frequency', band_type: None, meters: None, itu_abbr: 'VHF', itu_num: 8, ieee: 'VHF', nato: 'A', broadcast: 'FM Radio' }\
+returns a dictionary:__
+{ frequency: '89.900 Mhz', band_desc: 'Very High Frequency', band_type: None, meters: None, itu_abbr: 'VHF', itu_num: 8, ieee: 'VHF', nato: 'A', broadcast: 'FM Radio' }
 
 
 Todo
 -------
 
-Convert to dictionary lookups instead of if/thens
-Amateur Radio Details
-Wavelength Range
-WIFI bandtypes
-Cellular bandtpes
-Sattelite bandtypes
-GMRS & CB Specific Channels
+Convert to dictionary lookups instead of if/thens__
+Amateur Radio Details__
+Wavelength Range__
+WIFI bandtypes__
+Cellular bandtpes__
+Sattelite bandtypes__
+GMRS & CB Specific Channels__
 
 Credits
 -------
