@@ -40,26 +40,26 @@ Features
 
 Returns information about a radio frequency (US only for now)
 
-Band Description__
-Band Type__
-ITU Abbreviation__
-ITU Number__
-IEEE Band Name__
-NATO Band Name__
-Broadcast__
-Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented__
-Wavelength Range, - Not yet Implimented__
-Meters__
+- Band Description
+- Band Type
+- ITU Abbreviation
+- ITU Number
+- IEEE Band Name
+- NATO Band Name
+- Broadcast
+- Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented
+- Wavelength Range, - Not yet Implimented
+- Meters
 
 Usage
 -------
-Frequency format examples:__
-89.900.000, 89900000, 89,900,000__
+Frequency format examples:
+89.900.000, 89900000, 89,900,000
 
-Command Line:__
-radio-frequency <frequency>__
+Command Line:
+radio-frequency <frequency>
 
-Python:__
+Python:
 from radio_frequency import radio_frequency as rf
 
 rf.frequency_info(frequency)
@@ -71,13 +71,13 @@ returns a dictionary:__
 Todo
 -------
 
-Convert to dictionary lookups instead of if/thens__
-Amateur Radio Details__
-Wavelength Range__
-WIFI bandtypes__
-Cellular bandtpes__
-Sattelite bandtypes__
-GMRS & CB Specific Channels__
+- Convert to dictionary lookups instead of if/thens
+- Amateur Radio Details
+- Wavelength Range
+- WIFI bandtypes
+- Cellular bandtpes
+- Sattelite bandtypes
+- GMRS & CB Specific Channels
 
 Credits
 -------
