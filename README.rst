@@ -9,6 +9,10 @@ Radio Frequency
 .. image:: https://img.shields.io/pypi/v/radio_frequency.svg
         :target: https://pypi.python.org/pypi/radio_frequency
 
+.. image:: https://pyup.io/repos/github/cosmicc/radio_frequency/python-3-shield.svg
+        :target: https://pyup.io/repos/github/cosmicc/radio_frequency/
+        :alt: Python 3
+
 .. image:: https://img.shields.io/travis/cosmicc/radio_frequency.svg
         :target: https://travis-ci.org/cosmicc/radio_frequency
 
@@ -20,9 +24,6 @@ Radio Frequency
      :target: https://pyup.io/repos/github/cosmicc/radio_frequency/
      :alt: Updates
 
-.. image:: https://pyup.io/repos/github/cosmicc/radio_frequency/python-3-shield.svg
-     :target: https://pyup.io/repos/github/cosmicc/radio_frequency/
-     :alt: Python 3  
 
 
 Radio Frequency Information
@@ -37,15 +38,15 @@ Features
 
 Returns information about a radio frequency (US only for now)
 
-Band Description, 
-Band Type,
-ITU Abbreviation,
-ITU Number,
-IEEE Band Name,
-NATO Band Name,
-Broadcast,
-Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented
-Wavelength Range, - Not yet Implimented
+Band Description\n 
+Band Type\n
+ITU Abbreviation\n
+ITU Number\n
+IEEE Band Name\n
+NATO Band Name\n
+Broadcast\n
+Amateur Radio Details (Type, Class, Max Power), - Not yet Implimented\n
+Wavelength Range, - Not yet Implimented\n
 Meters
 
 Todo
