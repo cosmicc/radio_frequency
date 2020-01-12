@@ -13,7 +13,8 @@ Radio Frequency
         :target: https://pyup.io/repos/github/cosmicc/radio_frequency/
         :alt: Python 3
         
-.. image:: https://img.shields.io/github/license/cosmicc/radio_frequency   :alt: GitHub
+.. image:: https://img.shields.io/github/license/cosmicc/radio_frequency.svg
+        :target: https://github.com/cosmicc/radio_frequency
 
 .. image:: https://img.shields.io/travis/cosmicc/radio_frequency.svg
         :target: https://travis-ci.org/cosmicc/radio_frequency
