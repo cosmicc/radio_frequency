@@ -1,7 +1,8 @@
 """Console script for radio_frequency."""
+from __future__ import print_function
 import argparse
 import sys
-import radio_frequency
+from radio_frequency import radio_frequency
 
 
 def main():

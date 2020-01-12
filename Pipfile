@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+wheel = "*"
+tox = "*"
+coverage = "*"
+twine = "*"
+sphinx = "*"
+flake8 = "*"
+watchdog = "*"
+pytest = "*"
+pytest-runner = "*"
