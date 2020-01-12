@@ -202,3 +202,15 @@ def frequency_info(freq):
 
     return {'band_desc': band_desc, 'band_type': bandtype, 'meters': meters, 'itu_abbr': itu_abbr, 'itu_num': itu_num, 'ieee': ieee, 'nato': nato, 'broadcast': broadcast}
 
+
+if __name__ == '__main__':
+    if sys.argv[1]:
+        bd = frequency_info(sys.argv[1])
+        print(' ')
+        print(f'Frequency: {sys.argv[1]}')
+        for key, value in bd.items():
+            print(f'{key.upper()}: {value}')
+        print(' ')
+    else:
+        print('You need to specify a frequency. eg: 123.000.000')
+        exit(1)

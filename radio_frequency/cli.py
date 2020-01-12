@@ -1,6 +1,7 @@
 """Console script for radio_frequency."""
 import argparse
 import sys
+import radio_frequency
 
 
 def main():
@@ -9,9 +10,11 @@ def main():
     parser.add_argument('_', nargs='*')
     args = parser.parse_args()
 
-    print("Arguments: " + str(args._))
-    print("Replace this message by putting your code into "
-          "radio_frequency.cli.main")
+    result = radio_frequency.frequency_info(args._[0])
+    print(' ')
+    for key, value in result.items():
+        print('%s: %s' % (key.upper(), value))
+    print(' ')
     return 0
 
 

@@ -5,7 +5,7 @@
 import pytest
 
 
-from radio_frequency import radio_frequency
+# from radio_frequency import radio_frequency
 
 
 @pytest.fixture
