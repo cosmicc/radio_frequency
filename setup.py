@@ -35,7 +35,7 @@ setup(
     description="Radio Frequency Information",
     entry_points={
         'console_scripts': [
-            'radio_frequency=radio_frequency.cli:main',
+            'radio-frequency=radio_frequency.cli:main',
         ],
     },
     install_requires=requirements,
