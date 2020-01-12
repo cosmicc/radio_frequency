@@ -57,27 +57,29 @@ Frequency format examples:
 89.900.000, 89900000, 89,900,000
 
 Command Line:
-radio-frequency <frequency>
+`radio-frequency <frequency>`
 
 Python:
+```
 from radio_frequency import radio_frequency as rf
 
 rf.frequency_info(frequency)
+```
 
-returns a dictionary:__
-{ frequency: '89.900 Mhz', band_desc: 'Very High Frequency', band_type: None, meters: None, itu_abbr: 'VHF', itu_num: 8, ieee: 'VHF', nato: 'A', broadcast: 'FM Radio' }
+returns a dictionary:
+`{ frequency: '89.900 Mhz', band_desc: 'Very High Frequency', band_type: None, meters: None, itu_abbr: 'VHF', itu_num: 8, ieee: 'VHF', nato: 'A', broadcast: 'FM Radio' }`
 
 
 Todo
 -------
 
-- Convert to dictionary lookups instead of if/thens
-- Amateur Radio Details
-- Wavelength Range
-- WIFI bandtypes
-- Cellular bandtpes
-- Sattelite bandtypes
-- GMRS & CB Specific Channels
+- [ ] Convert to dictionary lookups instead of if/thens
+- [ ] Amateur Radio Details
+- [ ] Wavelength Range
+- [ ] WIFI bandtypes
+- [ ] Cellular bandtpes
+- [ ] Sattelite bandtypes
+- [ ] GMRS & CB Specific Channels
 
 Credits
 -------
