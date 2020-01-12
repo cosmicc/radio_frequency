@@ -2,7 +2,7 @@
 Radio Frequency
 ===============
 
-.. image:: https://img.shields.io/github/v/release/cosmicc/radio_frequency.svg
+.. image:: https://img.shields.io/github/v/release/cosmicc/radio_frequency.svg?include_prereleases 
         :target: https://github.com/cosmicc/radio_frequency
         
 .. image:: https://img.shields.io/pypi/v/radio_frequency.svg
