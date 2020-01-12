@@ -75,7 +75,7 @@ Todo
 -------
 
 - Convert to dictionary lookups instead of if/thens
-- Amateur Radio Details
+- Amateur Radio Frequency Details
 - Wavelength Range
 - WIFI bandtypes
 - Cellular bandtpes
