@@ -3,8 +3,9 @@ Radio Frequency
 ===============
 
 
-[![GitHub release](https://img.shields.io/github/release/cosmicc/radio_frequency.svg)](https://github.com/offa/scope-guard/releases)
-
+.. image:: https://img.shields.io/github/release/cosmicc/radio_frequency.svg
+        :target: https://github.com/cosmicc/radio_frequency
+        
 .. image:: https://img.shields.io/pypi/v/radio_frequency.svg
         :target: https://pypi.python.org/pypi/radio_frequency
 
