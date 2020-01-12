@@ -28,7 +28,7 @@ Radio Frequency
 
 
 
-Radio Frequency Information
+Python library and command line tool to get Information about a Radio Frequency
 
 
 * Free software: MIT license
