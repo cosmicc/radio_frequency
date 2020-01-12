@@ -13,7 +13,6 @@ Radio Frequency
         :target: https://radio-frequency.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/cosmicc/radio_frequency/shield.svg
      :target: https://pyup.io/repos/github/cosmicc/radio_frequency/
      :alt: Updates
@@ -30,12 +29,17 @@ Radio Frequency Information
 Features
 --------
 
-* TODO
+Returns information about a specified radio frequency (US only)
+
+Band Description
+Band Type
+Meters
+ITU Abbreviation
+ITU Number
+IEEE Band Name
+NATO Band Name
+Broadcast
+
 
 Credits
 -------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
