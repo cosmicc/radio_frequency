@@ -35,7 +35,7 @@ setup(
     description="Radio Frequency Information",
     entry_points={
         'console_scripts': [
-            'radio_frequency=radio_frequency.cli:main',
+            'radio-frequency=radio_frequency.cli:main',
         ],
     },
     install_requires=requirements,
@@ -49,6 +49,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/cosmicc/radio_frequency',
-    version='0.1.0',
+    version='0.1.1',
     zip_safe=False,
 )
